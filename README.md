@@ -24,21 +24,24 @@ A modular, auditable compensation tool for UK equity & fixed-income portfolio ma
 - `services/`: Pure-function business logic (no I/O)
 - `routes/`: FastAPI routers (thin ► call services)
 - `ui/`: React components and pages under ui/components and ui/pages
-- `tests/`: Mirrors source tree; name tests test_*.py
+- `tests/`: Mirrors source tree; name tests test\_\*.py
 - `infra/`: Terraform / Docker / GitHub Actions
 
 ## Setup
 
 1. Create a virtual environment:
+
    ```
    python -m venv venv
    ```
 
 2. Activate the virtual environment:
+
    - Windows: `venv\Scripts\activate`
    - Unix/MacOS: `source venv/bin/activate`
 
 3. Install dependencies:
+
    ```
    pip install -r requirements.txt
    ```
